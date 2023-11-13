@@ -9,6 +9,6 @@ if __name__=="__main__":
 
         allFind=collection.find({'name': 'Yazib','marks':{"$Lte":80}})
         # print(collection.count_documents())
-        # print(allFind)
+        # print(allFind) hi every one
         for item in allFind:
             print(item)
