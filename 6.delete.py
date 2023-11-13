@@ -7,7 +7,7 @@ if __name__=="__main__":
 
         rec={'name':"Yazib"}
         # collection.delete_one(rec)
-        # up=collection.update_many(prev,next1)
+        # up=collection.update_many(prev,next1)   hello everyone
         delMany=collection.delete_many(rec)
         print(delMany.deleted_count)
 
